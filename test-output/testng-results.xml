@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4696" started-at="2022-04-21T20:31:35 IST" finished-at="2022-04-21T20:31:39 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4696" started-at="2022-04-21T20:31:35 IST" finished-at="2022-04-21T20:31:39 IST">
+      <class name="testClasses.KiteTest_1">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testClasses.KiteTest_1@103f852]" name="launchBrowser" is-config="true" duration-ms="3494" started-at="2022-04-21T20:31:35 IST" finished-at="2022-04-21T20:31:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="refresh()[pri:0, instance:testClasses.KiteTest_1@103f852]" name="refresh" is-config="true" duration-ms="7" started-at="2022-04-21T20:31:38 IST" finished-at="2022-04-21T20:31:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refresh -->
+        <test-method status="PASS" signature="validCredentialLogin()[pri:0, instance:testClasses.KiteTest_1@103f852]" name="validCredentialLogin" duration-ms="1052" started-at="2022-04-21T20:31:38 IST" finished-at="2022-04-21T20:31:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validCredentialLogin -->
+        <test-method status="PASS" signature="takesScreenshot(org.testng.ITestResult)[pri:0, instance:testClasses.KiteTest_1@103f852]" name="takesScreenshot" is-config="true" duration-ms="2" started-at="2022-04-21T20:31:39 IST" finished-at="2022-04-21T20:31:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validCredentialLogin status=SUCCESS method=KiteTest_1.validCredentialLogin()[pri:0, instance:testClasses.KiteTest_1@103f852] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takesScreenshot -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testClasses.KiteTest_1@103f852]" name="closeBrowser" is-config="true" duration-ms="103" started-at="2022-04-21T20:31:39 IST" finished-at="2022-04-21T20:31:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testClasses.KiteTest_1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
